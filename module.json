@@ -1,0 +1,103 @@
+{
+  "id": "feiticeiros-e-maldicoes",
+  "title": "Feiticeiros e Maldições",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "custom-system-builder",
+        "type": "system"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Fagner Santos",
+      "email": "santossilva.f@gmail.com",
+      "discord": "kyodansfx"
+    }
+  ],
+  "packs": [
+    {
+      "name": "personagens",
+      "label": "Personagens",
+      "path": "packs/personagens",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "aptidoes-amaldicoadas",
+      "label": "Aptidões Amaldiçoadas",
+      "path": "packs/aptidoes-amaldicoadas",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "habilidades-de-especializacao",
+      "label": "Habilidades de Especialização",
+      "path": "packs/habilidades-de-especializacao",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "talentos",
+      "label": "Talentos",
+      "path": "packs/talentos",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "equipamentos",
+      "label": "Equipamentos",
+      "path": "packs/equipamentos",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "tecnicas",
+      "label": "Técnicas",
+      "path": "packs/tecnicas",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "templates-para-itens",
+      "label": "Templates para Itens",
+      "path": "packs/templates-para-itens",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    }
+  ]
+}
