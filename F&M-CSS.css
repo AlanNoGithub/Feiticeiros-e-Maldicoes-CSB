@@ -1,0 +1,43 @@
+/* F&M-CSS */
+.custom-system-actor-content {
+    background-color: gray
+    }
+    .custom-system-actor-content {
+    color: white
+    }
+    .equip-icn table { background: none; border: none; }
+    .equip-icn table tbody tr { background: none; }
+    .equip-icn a.content-link { background: none; border: none; font-size: 0; }
+    .equip-icn .custom-system-item-container-image {
+      object-fit: contain;
+      max-width: 34px;
+      max-height: 34px;
+      margin: 0px;
+      vertical-align: middle;
+      border: none;
+      border-radius: 8px;
+      background-color: rgba(0,0,0,0.05);
+      transition: all .3s ease-in-out;
+    }
+    
+    .mb-roll{ text-align: center; }
+    .mb-roll .result{ font-size:1.4em; font-family: Impact; }
+    .mb-roll .critico{ color: #0c6400; }
+    .mb-roll .falha{ color: #640000; }
+    .mb-roll .ctech { color: #0047AB; }
+    .mb-roll .mtech { color: #F28C28; }
+    .mb-roll .stech { color: #72008f; }
+    
+    .sheet header.sheet-header { align-items: start; }
+    .sheet header.sheet-header h1 { 
+      margin-left: 10px;
+      max-width: 66%;
+    }
+    
+    .custom-system-sheet-actions { margin-bottom: -25px; }
+    .custom-system-template-select label { display: none; }
+    .custom-system-template-select select { min-width: 0; }
+    .custom-system-template-select {
+      position: relative;
+      bottom: 45px;
+    }
