@@ -1,43 +1,159 @@
-/* F&M-CSS */
+/* Mudanças Gerais */
+
 .custom-system-actor-content {
-    background-color: gray
-    }
-    .custom-system-actor-content {
-    color: white
-    }
-    .equip-icn table { background: none; border: none; }
-    .equip-icn table tbody tr { background: none; }
-    .equip-icn a.content-link { background: none; border: none; font-size: 0; }
-    .equip-icn .custom-system-item-container-image {
-      object-fit: contain;
-      max-width: 34px;
-      max-height: 34px;
-      margin: 0px;
-      vertical-align: middle;
-      border: none;
-      border-radius: 8px;
-      background-color: rgba(0,0,0,0.05);
-      transition: all .3s ease-in-out;
-    }
-    
-    .mb-roll{ text-align: center; }
-    .mb-roll .result{ font-size:1.4em; font-family: Impact; }
-    .mb-roll .critico{ color: #0c6400; }
-    .mb-roll .falha{ color: #640000; }
-    .mb-roll .ctech { color: #0047AB; }
-    .mb-roll .mtech { color: #F28C28; }
-    .mb-roll .stech { color: #72008f; }
-    
-    .sheet header.sheet-header { align-items: start; }
-    .sheet header.sheet-header h1 { 
-      margin-left: 10px;
-      max-width: 66%;
-    }
-    
-    .custom-system-sheet-actions { margin-bottom: -25px; }
-    .custom-system-template-select label { display: none; }
-    .custom-system-template-select select { min-width: 0; }
-    .custom-system-template-select {
-      position: relative;
-      bottom: 45px;
-    }
+    background: url("...");
+    background-color: #0B0539;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+	color: white;
+	font-family: Merriweather;
+	font-size:12px;
+}
+.header-fields {
+    background: url("...");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:10px;
+	background: #090430;
+}
+.sheet .custom-system-actor header.sheet-header .profile-img-container img {
+    border: solid 1px white;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    flex: none;
+}
+.custom-system-customBody {
+    background: url("...");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:10px;
+	background: #090430;
+}
+/* Estilização de Itens */
+.equip-icn table { background: none; border: none; }
+.equip-icn table tbody tr { background: none; }
+.equip-icn a.content-link { background: none; border: none; font-size: 0; }
+.equip-icn .custom-system-item-container-image {
+  object-fit: contain;
+  max-width: 32px;
+  max-height: 32px;
+  margin: 0px;
+  vertical-align: middle;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.05);
+  transition: all .3s ease-in-out;
+}
+
+/* Alterações em texto de rolagem */
+.mb-roll{ text-align: center; }
+.mb-roll .result{ font-size:1.4em; font-family: Impact; }
+.mb-roll .critico{ color: #0c6400; }
+.mb-roll .falha{ color: #640000; }
+.mb-roll .ctech { color: #0047AB; }
+.mb-roll .mtech { color: #F28C28; }
+.mb-roll .stech { color: #F28C28; }
+
+/* Campos Preenchiveis e Botões */
+.custom-system-actor nav.sheet-tabs {
+    margin: 6px 0;
+    border-top: 2px transparent var(--color-border-light-primary);
+    border-bottom: 2px transparent var(--color-border-light-primary);
+    background: #090430;
+	padding: 12px 0;
+	border-radius: 50px;
+}
+.sheet nav.sheet-tabs .item {
+    padding: 4px 10px;
+	background: #24205e;
+	color: white;
+	border-radius: 50px;
+	box-shadow: 0 4px 4px rgba(0,0,25,2.5) 
+}
+.sheet input[type="text"], input[type="number"]{
+    width: calc(100% - 2px);
+    min-width: 20px;
+    height: var(--form-field-height);
+    background: rgba(0, 0, 0, 0.0);
+    padding: 1px 3px;
+    margin: 0px;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: center;
+	color: white;
+    border: 1px solid white;
+    border-radius: 55px;
+}
+.sheet select {
+    height: calc(var(--form-field-height) + 1px);
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 0 3px;
+    text-overflow: ellipsis;
+    font-family: inherit;
+    font-size: 9.5px;
+	text-align: center;
+	color: white;
+}
+.sheet select:focus {
+    box-shadow: 0 0 5px red;
+    outline: none;
+}
+.sheet select:hover {
+	box-shadow: 0 0 5px blue;
+	outline: none;
+}
+.sheet .character table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #000048;
+    border-top: 0px transparent var(--color-border-light-tertiary);
+    border-bottom: 0px transparent var(--color-border-light-tertiary);
+    margin: 0.01em 0;
+	border-radius: 15px;
+}
+.sheet .character table td:first-child {
+    padding-left: 2px;
+	color: white;
+}
+.custom-system-user-input-button {
+    background: rgba(0, 0, 0, 0.05);
+    border: 2px groove white;
+	border-radius: 50px;
+	color: white;
+}
+.custom-system-rollable {
+    color: white;
+}
+.character .tabs .item.active {
+    text-shadow: 0 0 10px #00daff;
+}
+.Roll_Mod { color: white; }
+}
+.sheet input[type="checkbox"] {
+	display: none
+}
+.sheet input[type="checkbox"] {
+   -webkit-appearance: initial;
+    appearance: initial;
+    background: url(/modules/feiticeiros-e-maldicoes/img/fire-unchecked.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex: 0 0 22px;
+    width: 27px;
+    height: 22px;
+	cursor: pointer;
+    transform: scale(1.3);
+}
+.sheet input[type="checkbox"]:checked {
+    background: url(/modules/feiticeiros-e-maldicoes/img/fire-checked.png);
+    -webkit-filter: none !important;
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+	

@@ -1,16 +1,18 @@
 {
   "id": "feiticeiros-e-maldicoes",
   "title": "Feiticeiros e Maldições",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
+    "verified": "11",
+    "maximum": "12"
   },
   "relationships": {
     "systems": [
       {
         "id": "custom-system-builder",
-        "type": "system"
+        "type": "system",
+        "compatibility": {}
       }
     ]
   },
@@ -27,61 +29,83 @@
       "label": "Personagens",
       "path": "packs/personagens",
       "type": "Actor",
+      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "custom-system-builder"
+      }
     },
     {
       "name": "aptidoes-amaldicoadas",
       "label": "Aptidões Amaldiçoadas",
       "path": "packs/aptidoes-amaldicoadas",
       "type": "Item",
+      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "custom-system-builder"
+      }
     },
     {
       "name": "habilidades-de-especializacao",
       "label": "Habilidades de Especialização",
       "path": "packs/habilidades-de-especializacao",
       "type": "Item",
+      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "custom-system-builder"
+      }
     },
     {
       "name": "talentos",
       "label": "Talentos",
       "path": "packs/talentos",
       "type": "Item",
+      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "custom-system-builder"
+      }
     },
     {
       "name": "equipamentos",
       "label": "Equipamentos",
       "path": "packs/equipamentos",
       "type": "Item",
+      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "custom-system-builder"
+      }
     },
     {
       "name": "tecnicas",
       "label": "Técnicas",
       "path": "packs/tecnicas",
       "type": "Item",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "templates-para-itens",
+      "label": "Templates para Itens",
+      "path": "packs/templates-para-itens",
+      "type": "Item",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "enciclopedia-amaldicoada",
+      "label": "Enciclopédia Amaldiçoada",
+      "path": "packs/enciclopedia-amaldicoada",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -89,15 +113,38 @@
       "system": "custom-system-builder"
     },
     {
-      "name": "templates-para-itens",
-      "label": "Templates para Itens",
-      "path": "packs/templates-para-itens",
-      "type": "Item",
+      "name": "grimorio-das-maldicoes",
+      "label": "Grimório das Maldições",
+      "path": "packs/grimorio-das-maldicoes",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "tutoriais",
+      "label": "Tutoriais",
+      "path": "packs/tutoriais",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "missoes-e-aventuras-prontas",
+      "label": "Missões e Aventuras Prontas",
+      "path": "packs/missoes-e-aventuras-prontas",
+      "type": "JournalEntry",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
       "system": "custom-system-builder"
     }
-  ]
+  ],
+  "url": "https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB"
 }
