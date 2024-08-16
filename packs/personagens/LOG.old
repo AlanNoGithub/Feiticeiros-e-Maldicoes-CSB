@@ -1,3 +1,8 @@
-2024/08/05-11:52:29.231 48a8 Recovering log #147
-2024/08/05-11:52:29.319 48a8 Delete type=0 #147
-2024/08/05-11:52:29.319 48a8 Delete type=3 #145
+2024/08/15-12:31:19.865 2aa8 Recovering log #316
+2024/08/15-12:31:19.977 2aa8 Delete type=0 #316
+2024/08/15-12:31:19.977 2aa8 Delete type=3 #315
+2024/08/15-21:25:01.243 4f40 Level-0 table #320: started
+2024/08/15-21:25:01.244 4f40 Level-0 table #320: 0 bytes OK
+2024/08/15-21:25:01.391 4f40 Delete type=0 #318
+2024/08/15-21:25:01.591 4f40 Manual compaction at level-0 from '!actors!EtrPOkE4NdQuDujG' @ 72057594037927935 : 1 .. '!actors!eT3UpBmJBKmwCWyO' @ 0 : 0; will stop at (end)
+2024/08/15-21:25:01.591 4f40 Manual compaction at level-1 from '!actors!EtrPOkE4NdQuDujG' @ 72057594037927935 : 1 .. '!actors!eT3UpBmJBKmwCWyO' @ 0 : 0; will stop at (end)

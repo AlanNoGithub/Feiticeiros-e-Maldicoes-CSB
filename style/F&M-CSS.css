@@ -1,16 +1,18 @@
-/* Mudanças Gerais */
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
-.custom-system-actor-content {
+/* Fundo */
+.sheet .custom-system-actor-content {
     background: url("...");
     background-color: #0B0539;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: screen;
 	color: white;
-	font-family: Merriweather;
-	font-size:12px;
+	font-family: Roboto Slab;
+    font-size:14px;
 }
-.header-fields {
+.sheet .header-fields {
     background: url("...");
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,7 +35,7 @@
     margin-left:10px;
 	background: #090430;
 }
-/* Estilização de Itens */
+/* Itens */
 .equip-icn table { background: none; border: none; }
 .equip-icn table tbody tr { background: none; }
 .equip-icn a.content-link { background: none; border: none; font-size: 0; }
@@ -49,16 +51,86 @@
   transition: all .3s ease-in-out;
 }
 
-/* Alterações em texto de rolagem */
-.mb-roll{ text-align: center; }
-.mb-roll .result{ font-size:1.4em; font-family: Impact; }
-.mb-roll .critico{ color: #0c6400; }
-.mb-roll .falha{ color: #640000; }
-.mb-roll .ctech { color: #0047AB; }
-.mb-roll .mtech { color: #F28C28; }
-.mb-roll .stech { color: #F28C28; }
+/* Rolagens */
 
-/* Campos Preenchiveis e Botões */
+.critico{ 
+	color: #0c6400; 
+}
+.falha{ 
+	color: #640000; 
+}
+.chat-roll {
+	border: 2px solid #9f9275;
+	border-radius: 5px; 
+	background: #f8f4f1;
+	padding-left: 4px; 
+	padding-right: 2px;
+}
+.chat-roll img {
+	float: left;
+	border: 3px groove #9f9275;
+}
+.text-form {
+	font-size: 12px;
+	font-family: inherit;
+}
+.text-icn {
+	padding-left: 0px; 
+	padding-top: 4px;
+	white-space: wrap;
+}
+.chat-roll .text-icn .img {
+	vertical-align: top;
+	width: 35px;
+	height: 35px;
+	border: 3px groove #9f9275;
+}
+.title {
+	padding-left: 4px;
+	white-space: pre-wrap;
+	display: flex;
+	font-family: Roboto Slab;
+}
+.subtitle {
+	font-family: Roboto;
+	font-size: 10px;
+	white-space: pre-wrap;
+	padding-left: 4px
+	
+}
+.subtitle2 {
+	font-family: Roboto;
+	font-size: 10px;
+	white-space: pre;
+	padding-left: 4px;
+
+}
+.grid-container {
+	display: grid;
+	width: 100%;
+	align-content: center;
+	grid-column: 1 / span 3;
+}
+.message-header .message-sender{
+	font-family: Roboto Slab;
+	font-weight: bold;
+}
+.dice-roll .dice-total {
+    flex: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.dice-roll .dice-total.critical {
+    flex: 0;
+    font-size: 20px;
+    font-weight: bold;
+	color: green;
+}
+.roll-text {
+	font-family: Roboto;
+	font-size: 12px;
+}
+/* Botões */
 .custom-system-actor nav.sheet-tabs {
     margin: 6px 0;
     border-top: 2px transparent var(--color-border-light-primary);
@@ -74,7 +146,24 @@
 	border-radius: 50px;
 	box-shadow: 0 4px 4px rgba(0,0,25,2.5) 
 }
-.sheet input[type="text"], input[type="number"]{
+.sheet option, optgroup {
+    font-family: inherit;
+    background: #c9c7b8;
+    color: red;
+}
+/* Textos, Estatisticas, Dropdowns e Checkboxes */
+.sheet header.sheet-header h1 input {
+    width: calc(80% - 2px);
+    min-width: 10px;
+    background: rgba(0, 0, 0, 0.0);
+    font-family: inherit;
+    font-size: inherit;
+    text-align: center;
+	color: white;
+    border: 1px solid white;
+    border-radius: 55px;
+}
+.sheet .statistic input[type="text"]{
     width: calc(100% - 2px);
     min-width: 20px;
     height: var(--form-field-height);
@@ -88,7 +177,44 @@
     border: 1px solid white;
     border-radius: 55px;
 }
-.sheet select {
+.sheet .naming input[type="text"]{
+    width: calc(100% - 2px);
+    min-width: 20px;
+    height: var(--form-field-height);
+    background: rgba(0, 0, 0, 0.0);
+    padding: 1px 3px;
+    margin: 0px;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: center;
+	color: white;
+    border: 1px solid white;
+    border-radius: 55px;
+}
+.custom-system-user-input-button {
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+}
+.sheet option, optgroup {
+    font-family: inherit;
+    background: #c9c7b8;
+    color: black;
+}
+.sheet .choice select {
+    height: calc(var(--form-field-height) + 1px);
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 0 3px;
+    text-overflow: ellipsis;
+    font-family: Roboto;
+    font-size: 12px;
+	text-align: center;
+	color: white;
+}
+.custom-system-template-select > select {
     height: calc(var(--form-field-height) + 1px);
     background: rgba(0, 0, 0, 0.05);
     border: 1px solid white;
@@ -96,9 +222,10 @@
     padding: 0 3px;
     text-overflow: ellipsis;
     font-family: inherit;
-    font-size: 9.5px;
+    font-size: inherit;
 	text-align: center;
 	color: white;
+	
 }
 .sheet select:focus {
     box-shadow: 0 0 5px red;
@@ -121,12 +248,6 @@
     padding-left: 2px;
 	color: white;
 }
-.custom-system-user-input-button {
-    background: rgba(0, 0, 0, 0.05);
-    border: 2px groove white;
-	border-radius: 50px;
-	color: white;
-}
 .custom-system-rollable {
     color: white;
 }
@@ -135,25 +256,30 @@
 }
 .Roll_Mod { color: white; }
 }
-.sheet input[type="checkbox"] {
-	display: none
+.character .training input[type="checkbox"] {
+	display: inherit;
 }
-.sheet input[type="checkbox"] {
+.character .training input[type="checkbox"] {
    -webkit-appearance: initial;
     appearance: initial;
     background: url(/modules/feiticeiros-e-maldicoes/img/fire-unchecked.png);
     background-repeat: no-repeat;
     background-size: contain;
-    flex: 0 0 22px;
+    flex: 0 0 10px;
     width: 27px;
     height: 22px;
 	cursor: pointer;
-    transform: scale(1.3);
+    transform: scale(1.4);
 }
-.sheet input[type="checkbox"]:checked {
+.character .training input[type="checkbox"]:checked {
     background: url(/modules/feiticeiros-e-maldicoes/img/fire-checked.png);
     -webkit-filter: none !important;
 	background-repeat: no-repeat;
     background-size: contain;
 }
-	
+.character .training-complete input[type="checkbox"]:checked {
+    background: url(/modules/feiticeiros-e-maldicoes/img/fire-burning.png);
+    -webkit-filter: none !important;
+	background-repeat: no-repeat;
+    background-size: contain;
+}
