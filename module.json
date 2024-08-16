@@ -106,39 +106,50 @@
       "label": "Enciclopédia Amaldiçoada",
       "path": "packs/enciclopedia-amaldicoada",
       "type": "Item",
+      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "custom-system-builder"
+      }
     },
     {
       "name": "grimorio-das-maldicoes",
       "label": "Grimório das Maldições",
       "path": "packs/grimorio-das-maldicoes",
       "type": "Actor",
+      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "custom-system-builder"
+      }
     },
     {
       "name": "tutoriais",
       "label": "Tutoriais",
       "path": "packs/tutoriais",
       "type": "JournalEntry",
+      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "custom-system-builder"
+      }
     },
     {
       "name": "missoes-e-aventuras-prontas",
       "label": "Missões e Aventuras Prontas",
       "path": "packs/missoes-e-aventuras-prontas",
       "type": "JournalEntry",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "acoes-de-criaturas",
+      "label": "Ações de Criaturas",
+      "path": "packs/acoes-de-criaturas",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
