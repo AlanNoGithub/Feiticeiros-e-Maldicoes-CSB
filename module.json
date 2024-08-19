@@ -14,6 +14,20 @@
         "type": "system",
         "compatibility": {}
       }
+    ],
+    "recommends": [
+      {
+        "id": "dice-so-nice",
+        "type": "module"
+      },
+      {
+        "id": "chat-portrait",
+        "type": "module"
+      },
+      {
+        "id": "barbrawl",
+        "type": "module"
+      }
     ]
   },
   "authors": [
@@ -150,11 +164,11 @@
       "label": "Ações de Criaturas",
       "path": "packs/acoes-de-criaturas",
       "type": "Item",
+      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "custom-system-builder"
+      }
     }
   ],
   "url": "https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB"
