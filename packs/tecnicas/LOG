@@ -1,22 +1,8 @@
-2024/08/18-18:49:30.411 3c88 Recovering log #319
-2024/08/18-18:49:30.485 3c88 Delete type=0 #319
-2024/08/18-18:49:30.486 3c88 Delete type=3 #317
-2024/08/19-01:14:44.421 3878 Level-0 table #323: started
-2024/08/19-01:14:44.421 3878 Level-0 table #323: 0 bytes OK
-2024/08/19-01:14:44.472 3878 Delete type=0 #321
-2024/08/19-01:14:44.574 3878 Manual compaction at level-0 from '!folders!ob6Q6CsL9XzWtsJN' @ 72057594037927935 : 1 .. '!items!qdo05QXKIK2UlMKB' @ 0 : 0; will stop at '!items!qdo05QXKIK2UlMKB' @ 121 : 1
-2024/08/19-01:14:44.574 3878 Compacting 2@0 + 0@1 files
-2024/08/19-01:14:44.659 3878 Generated table #324@0: 21 keys, 22685 bytes
-2024/08/19-01:14:44.659 3878 Compacted 2@0 + 0@1 files => 22685 bytes
-2024/08/19-01:14:44.762 3878 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/08/19-01:14:44.763 3878 Delete type=2 #309
-2024/08/19-01:14:44.773 3878 Delete type=2 #318
-2024/08/19-01:14:45.060 3878 Manual compaction at level-0 from '!items!qdo05QXKIK2UlMKB' @ 121 : 1 .. '!items!qdo05QXKIK2UlMKB' @ 0 : 0; will stop at (end)
-2024/08/19-01:14:45.222 3878 Manual compaction at level-1 from '!folders!ob6Q6CsL9XzWtsJN' @ 72057594037927935 : 1 .. '!items!qdo05QXKIK2UlMKB' @ 0 : 0; will stop at '!items!qdo05QXKIK2UlMKB' @ 121 : 1
-2024/08/19-01:14:45.222 3878 Compacting 1@1 + 1@2 files
-2024/08/19-01:14:45.280 3878 Generated table #325@1: 15 keys, 22515 bytes
-2024/08/19-01:14:45.280 3878 Compacted 1@1 + 1@2 files => 22515 bytes
-2024/08/19-01:14:45.331 3878 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/08/19-01:14:45.331 3878 Delete type=2 #301
-2024/08/19-01:14:45.331 3878 Delete type=2 #324
-2024/08/19-01:14:45.416 3878 Manual compaction at level-1 from '!items!qdo05QXKIK2UlMKB' @ 121 : 1 .. '!items!qdo05QXKIK2UlMKB' @ 0 : 0; will stop at (end)
+2024/08/19-15:20:17.431 39cc Recovering log #322
+2024/08/19-15:20:17.492 39cc Delete type=0 #322
+2024/08/19-15:20:17.492 39cc Delete type=3 #320
+2024/08/19-17:09:53.172 110 Level-0 table #329: started
+2024/08/19-17:09:53.172 110 Level-0 table #329: 0 bytes OK
+2024/08/19-17:09:53.216 110 Delete type=0 #327
+2024/08/19-17:09:53.443 110 Manual compaction at level-0 from '!folders!ob6Q6CsL9XzWtsJN' @ 72057594037927935 : 1 .. '!items!qdo05QXKIK2UlMKB' @ 0 : 0; will stop at (end)
+2024/08/19-17:09:53.443 110 Manual compaction at level-1 from '!folders!ob6Q6CsL9XzWtsJN' @ 72057594037927935 : 1 .. '!items!qdo05QXKIK2UlMKB' @ 0 : 0; will stop at (end)
