@@ -1,7 +1,7 @@
 {
   "id": "feiticeiros-e-maldicoes",
   "title": "Feiticeiros e Maldições",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11",
@@ -32,7 +32,7 @@
   },
   "authors": [
     {
-      "name": "Fagner Santos",
+      "name": "Kyodan",
       "email": "santossilva.f@gmail.com",
       "discord": "kyodansfx"
     }
