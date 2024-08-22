@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a71db511-8896-4f54-b71f-22dac6094bdb)# Feiticeiros e Maldições
+# Feiticeiros e Maldições
 *Feito com Custom System Builder*
 
 Módulo não-oficial para o sistema de Feiticeiros e Maldições feito por Setsugiri.
