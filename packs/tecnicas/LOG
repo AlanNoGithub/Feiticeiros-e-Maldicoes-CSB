@@ -1,26 +1,8 @@
-2024/08/21-17:53:15.403 4a08 Recovering log #357
-2024/08/21-17:53:15.404 4a08 Recovering log #360
-2024/08/21-17:53:15.404 4a08 Level-0 table #360: started
-2024/08/21-17:53:15.452 4a08 Level-0 table #360: 469 bytes OK
-2024/08/21-17:53:15.520 4a08 Delete type=0 #357
-2024/08/21-17:53:15.520 4a08 Delete type=0 #360
-2024/08/21-17:53:15.520 4a08 Delete type=3 #355
-2024/08/21-22:45:43.833 3874 Level-0 table #363: started
-2024/08/21-22:45:44.002 3874 Level-0 table #363: 40435 bytes OK
-2024/08/21-22:45:44.085 3874 Delete type=0 #361
-2024/08/21-22:45:44.391 3874 Manual compaction at level-0 from '!folders!ob6Q6CsL9XzWtsJN' @ 72057594037927935 : 1 .. '!items!qdo05QXKIK2UlMKB' @ 0 : 0; will stop at '!items!y51bEel52xs9vp2H' @ 164 : 0
-2024/08/21-22:45:44.391 3874 Compacting 2@0 + 0@1 files
-2024/08/21-22:45:44.487 3874 Generated table #364@0: 35 keys, 40838 bytes
-2024/08/21-22:45:44.487 3874 Compacted 2@0 + 0@1 files => 40838 bytes
-2024/08/21-22:45:44.527 3874 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/08/21-22:45:44.527 3874 Delete type=2 #360
-2024/08/21-22:45:44.527 3874 Delete type=2 #363
-2024/08/21-22:45:44.775 3874 Manual compaction at level-0 from '!items!y51bEel52xs9vp2H' @ 164 : 0 .. '!items!qdo05QXKIK2UlMKB' @ 0 : 0; will stop at (end)
-2024/08/21-22:45:44.861 3874 Manual compaction at level-1 from '!folders!ob6Q6CsL9XzWtsJN' @ 72057594037927935 : 1 .. '!items!qdo05QXKIK2UlMKB' @ 0 : 0; will stop at '!items!y51bEel52xs9vp2H' @ 164 : 0
-2024/08/21-22:45:44.862 3874 Compacting 1@1 + 1@2 files
-2024/08/21-22:45:44.933 3874 Generated table #365@1: 22 keys, 40435 bytes
-2024/08/21-22:45:44.933 3874 Compacted 1@1 + 1@2 files => 40435 bytes
-2024/08/21-22:45:44.957 3874 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/08/21-22:45:44.958 3874 Delete type=2 #346
-2024/08/21-22:45:44.958 3874 Delete type=2 #364
-2024/08/21-22:45:45.269 3874 Manual compaction at level-1 from '!items!y51bEel52xs9vp2H' @ 164 : 0 .. '!items!qdo05QXKIK2UlMKB' @ 0 : 0; will stop at (end)
+2024/08/22-21:21:32.397 2434 Recovering log #378
+2024/08/22-21:21:32.449 2434 Delete type=0 #378
+2024/08/22-21:21:32.450 2434 Delete type=3 #376
+2024/08/22-21:26:52.712 3b08 Level-0 table #383: started
+2024/08/22-21:26:52.712 3b08 Level-0 table #383: 0 bytes OK
+2024/08/22-21:26:52.748 3b08 Delete type=0 #381
+2024/08/22-21:26:52.923 3b08 Manual compaction at level-0 from '!folders!ob6Q6CsL9XzWtsJN' @ 72057594037927935 : 1 .. '!items!qdo05QXKIK2UlMKB' @ 0 : 0; will stop at (end)
+2024/08/22-21:26:52.923 3b08 Manual compaction at level-1 from '!folders!ob6Q6CsL9XzWtsJN' @ 72057594037927935 : 1 .. '!items!qdo05QXKIK2UlMKB' @ 0 : 0; will stop at (end)
