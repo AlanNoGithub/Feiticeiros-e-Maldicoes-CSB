@@ -27,7 +27,7 @@ Para conseguir usar as fichas, va até **Compendium**, clique com o botão direi
 ![image](https://github.com/user-attachments/assets/3c2b5f33-986b-4adc-83ad-e01380ccfdc0)
 
 ## Guias
-Dentro do módulo, há guias mais detalhados sobre como criar personagens, ameaças e invocações, além de itens e habilidades homebrews para seu mundo. Esses guias também podem ser encontrados na [Wiki](https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB/wiki).
+Na [Wiki](https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB/wiki), haverá guias mais detalhados sobre como criar personagens, ameaças e invocações, além de itens e habilidades homebrews para seu mundo. Essa parte ainda está em construção, sendo atualizada periodicamente.
 
 
 
