@@ -15,7 +15,7 @@ https://raw.githubusercontent.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB/main/mod
 
 Fórmula de Iniciativa: [1d20 + :init:]
 
-CSS: modules/feiticeiros-e-maldicoes/style/F&M-CSS.css
+CSS: modules/feiticeiros-e-maldicoes/style/F&M.css
 
 ![image](https://github.com/user-attachments/assets/9aaacfcd-be52-44d3-b01e-4115abd80204)
 
