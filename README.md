@@ -19,7 +19,7 @@ CSS: modules/feiticeiros-e-maldicoes/style/F&M-CSS.css
 
 ![image](https://github.com/user-attachments/assets/9aaacfcd-be52-44d3-b01e-4115abd80204)
 
-Salve e atualize a página e tudo estará pronto.
+Salve e atualize a página pra deixar tudo pronto.
 
 Para conseguir usar as fichas, va até **Compendium**, clique com o botão direito em **Personagens** e **Templates para Itens** e selecione **Import All Content**, marcando a opção de manter todos os Ids. Isso ira popular seu jogo com tudo o que você precisa para jogar.
 
@@ -27,7 +27,7 @@ Para conseguir usar as fichas, va até **Compendium**, clique com o botão direi
 ![image](https://github.com/user-attachments/assets/3c2b5f33-986b-4adc-83ad-e01380ccfdc0)
 
 ## Guias
-Na [Wiki](https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB/wiki), haverá guias mais detalhados sobre como criar personagens, ameaças e invocações, além de itens e habilidades homebrews para seu mundo. Essa parte ainda está em construção, sendo atualizada periodicamente.
+Na [Wiki](https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB/wiki), tem guias mais detalhados sobre como criar personagens, ameaças e invocações, além de itens e habilidades homebrews para seu mundo. Essa parte ainda está em construção, sendo atualizada periodicamente.
 
 
 
