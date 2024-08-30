@@ -1,30 +1,3 @@
-2024/08/29-12:15:24.338 75e8 Recovering log #435
-2024/08/29-12:15:24.380 75e8 Level-0 table #438: started
-2024/08/29-12:15:24.430 75e8 Level-0 table #438: 486467 bytes OK
-2024/08/29-12:15:24.500 75e8 Delete type=0 #435
-2024/08/29-12:15:24.517 75e8 Delete type=3 #433
-2024/08/29-17:54:28.332 22a8 Compacting 1@0 + 1@1 files
-2024/08/29-17:54:28.995 22a8 Generated table #440@0: 3 keys, 486467 bytes
-2024/08/29-17:54:28.995 22a8 Compacted 1@0 + 1@1 files => 486467 bytes
-2024/08/29-17:54:29.268 22a8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/08/29-17:54:33.765 22a8 Level-0 table #442: started
-2024/08/29-17:54:34.134 22a8 Level-0 table #442: 486153 bytes OK
-2024/08/29-17:54:34.296 22a8 Delete type=2 #436
-2024/08/29-17:54:34.372 22a8 Delete type=2 #438
-2024/08/29-17:54:34.373 22a8 Delete type=0 #439
-2024/08/29-17:54:34.739 22a8 Manual compaction at level-0 from '!actors!EtrPOkE4NdQuDujG' @ 72057594037927935 : 1 .. '!actors!eT3UpBmJBKmwCWyO' @ 0 : 0; will stop at '!actors!eT3UpBmJBKmwCWyO' @ 89 : 1
-2024/08/29-17:54:34.739 22a8 Compacting 1@0 + 1@1 files
-2024/08/29-17:54:34.874 22a8 Generated table #443@0: 3 keys, 486153 bytes
-2024/08/29-17:54:34.874 22a8 Compacted 1@0 + 1@1 files => 486153 bytes
-2024/08/29-17:54:34.991 22a8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/08/29-17:54:34.991 22a8 Delete type=2 #440
-2024/08/29-17:54:34.991 22a8 Delete type=2 #442
-2024/08/29-17:54:35.707 22a8 Manual compaction at level-0 from '!actors!eT3UpBmJBKmwCWyO' @ 89 : 1 .. '!actors!eT3UpBmJBKmwCWyO' @ 0 : 0; will stop at (end)
-2024/08/29-17:54:35.707 22a8 Manual compaction at level-1 from '!actors!EtrPOkE4NdQuDujG' @ 72057594037927935 : 1 .. '!actors!eT3UpBmJBKmwCWyO' @ 0 : 0; will stop at '!actors!eT3UpBmJBKmwCWyO' @ 89 : 1
-2024/08/29-17:54:35.707 22a8 Compacting 1@1 + 1@2 files
-2024/08/29-17:54:35.910 22a8 Generated table #444@1: 3 keys, 486153 bytes
-2024/08/29-17:54:35.910 22a8 Compacted 1@1 + 1@2 files => 486153 bytes
-2024/08/29-17:54:35.955 22a8 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/08/29-17:54:35.955 22a8 Delete type=2 #422
-2024/08/29-17:54:35.955 22a8 Delete type=2 #443
-2024/08/29-17:54:36.681 22a8 Manual compaction at level-1 from '!actors!eT3UpBmJBKmwCWyO' @ 89 : 1 .. '!actors!eT3UpBmJBKmwCWyO' @ 0 : 0; will stop at (end)
+2024/08/30-15:52:47.857 5b10 Recovering log #473
+2024/08/30-15:52:47.949 5b10 Delete type=0 #473
+2024/08/30-15:52:47.949 5b10 Delete type=3 #469
