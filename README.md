@@ -3,6 +3,9 @@
 
 Módulo não-oficial para o sistema de Feiticeiros e Maldições feito por Setsugiri.
 
+# Aviso Importante
+Caso você possua a versão antiga da ficha, que se baseava em baixar um mundo pronto: **Delete Tudo** da versão antiga antes de instalar o módulo. Os arquivos da versão antiga são incompativeis com a versão atual, devido a mudanças críticas do sistema. Utilize e importe apenas os arquivos que se encontram nos compendiuns do módulo.
+
 ## Como Instalar
 
 1. Instale o módulo usando o manifest link na sessão "install module" no FoundryVTT:
