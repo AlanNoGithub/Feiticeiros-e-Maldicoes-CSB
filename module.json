@@ -1,7 +1,7 @@
 {
   "id": "feiticeiros-e-maldicoes",
   "title": "Feiticeiros e Maldições",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "compatibility": {
     "minimum": "11",
     "verified": "11",
@@ -141,24 +141,13 @@
       }
     },
     {
-      "name": "missoes-e-aventuras-prontas",
-      "label": "Missões e Aventuras Prontas",
-      "path": "packs/missoes-e-aventuras-prontas",
-      "type": "JournalEntry",
-      "system": "custom-system-builder",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
       "name": "acoes-de-criaturas",
-      "label": "Ações de Criaturas",
+      "label": "Ameaças e Invocações",
       "path": "packs/acoes-de-criaturas",
       "type": "Item",
       "system": "custom-system-builder",
       "ownership": {
-        "PLAYER": "NONE",
+        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     },
@@ -167,19 +156,30 @@
       "label": "Manual Jujutsu",
       "path": "packs/manual-jujutsu",
       "type": "Item",
+      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "custom-system-builder"
+      }
     },
     {
       "name": "maldicoes-libertas",
       "label": "Maldições Libertas",
       "path": "packs/maldicoes-libertas",
       "type": "Actor",
+      "system": "custom-system-builder",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "arquivos-de-grau-especial",
+      "label": "Arquivos de Grau Especial",
+      "path": "packs/arquivos-de-grau-especial",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       },
       "system": "custom-system-builder"
@@ -187,5 +187,5 @@
   ],
   "url": "https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB",
   "manifest": "https://raw.githubusercontent.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB/main/module.json",
-  "download": "https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB/releases/download/1.0.1/feiticeiros-e-maldicoes.zip"
+  "download": "https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB/releases/download/1.0.2/feiticeiros-e-maldicoes.zip"
 }
