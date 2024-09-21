@@ -1,0 +1,8 @@
+2024/09/21-16:34:06.792 2350 Recovering log #42
+2024/09/21-16:34:06.872 2350 Delete type=0 #42
+2024/09/21-16:34:06.872 2350 Delete type=3 #40
+2024/09/21-16:39:12.916 39c Level-0 table #47: started
+2024/09/21-16:39:12.916 39c Level-0 table #47: 0 bytes OK
+2024/09/21-16:39:12.975 39c Delete type=0 #45
+2024/09/21-16:39:13.128 39c Manual compaction at level-0 from '!actors!0fPVue4LOY4sPsIq' @ 72057594037927935 : 1 .. '!folders!ryiCXSM16PPBK5tt' @ 0 : 0; will stop at (end)
+2024/09/21-16:39:13.128 39c Manual compaction at level-1 from '!actors!0fPVue4LOY4sPsIq' @ 72057594037927935 : 1 .. '!folders!ryiCXSM16PPBK5tt' @ 0 : 0; will stop at (end)

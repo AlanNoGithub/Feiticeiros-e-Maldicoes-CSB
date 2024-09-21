@@ -13,6 +13,11 @@
         "id": "custom-system-builder",
         "type": "system",
         "compatibility": {}
+      },
+      {
+        "id": "custom-system-builder-beta",
+        "type": "system",
+        "compatibility": {}
       }
     ],
     "recommends": [
@@ -37,7 +42,8 @@
     {
       "name": "Kyodan",
       "email": "santossilva.f@gmail.com",
-      "discord": "kyodansfx"
+      "discord": "kyodansfx",
+      "flags": {}
     }
   ],
   "packs": [
@@ -178,14 +184,25 @@
       "label": "Arquivos de Grau Especial",
       "path": "packs/arquivos-de-grau-especial",
       "type": "JournalEntry",
+      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      },
-      "system": "custom-system-builder"
+      }
+    },
+    {
+      "name": "invocacoes-de-tecnica",
+      "label": "Invocações de Técnica",
+      "path": "packs/invocacoes-de-tecnica",
+      "type": "Actor",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "url": "https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB",
   "manifest": "https://raw.githubusercontent.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB/main/module.json",
-  "download": "https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB/releases/download/1.0.2/feiticeiros-e-maldicoes.zip"
+  "download": "https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB/releases/download/1.1/feiticeiros-e-maldicoes.zip"
 }
