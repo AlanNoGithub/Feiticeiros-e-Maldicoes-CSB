@@ -1,3 +1,5 @@
-2024/10/05-13:13:27.648 e94 Recovering log #605
-2024/10/05-13:13:27.730 e94 Delete type=0 #605
-2024/10/05-13:13:27.730 e94 Delete type=3 #604
+2024/10/05-19:25:07.140 dcc Recovering log #607
+2024/10/05-19:25:07.173 dcc Level-0 table #609: started
+2024/10/05-19:25:07.215 dcc Level-0 table #609: 78060 bytes OK
+2024/10/05-19:25:07.288 dcc Delete type=0 #607
+2024/10/05-19:25:07.288 dcc Delete type=3 #606
