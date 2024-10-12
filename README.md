@@ -24,9 +24,10 @@ CSS: modules/feiticeiros-e-maldicoes/style/F&M.css
 
 Salve e atualize a página pra deixar tudo pronto.
 
-Para conseguir usar as fichas, va até **Compendium**, clique com o botão direito em **Personagens** e **Templates para Itens** e selecione **Import All Content**, marcando a opção de manter todos os Ids. Isso irá encher seu jogo com tudo o que você precisa para jogar.*
+Para conseguir usar as fichas, va até **Compendium**, clique com o botão direito em **Personagens** e **Bases para Itens** e selecione **Import All Content**, marcando a opção de manter todos os Ids. Isso irá encher seu jogo com tudo o que você precisa para jogar.*
 
 ![image](https://github.com/user-attachments/assets/3fd9e251-35f2-42b3-b8a3-3f86473340c5)
+![image](https://github.com/user-attachments/assets/78da2e65-94c4-4623-af72-2c5d5a617775)
 ![image](https://github.com/user-attachments/assets/3c2b5f33-986b-4adc-83ad-e01380ccfdc0)
 
 
