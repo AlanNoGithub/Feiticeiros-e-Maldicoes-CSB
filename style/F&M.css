@@ -139,14 +139,14 @@
 	padding: 12px 0;
 	border-radius: 50px;
 }
-.sheet nav.sheet-tabs .item {
+.character nav.sheet-tabs .item{
     padding: 4px 10px;
 	background: #24205e;
 	color: white;
 	border-radius: 50px;
 	box-shadow: 0 4px 4px rgba(0,0,25,2.5) 
 }
-.sheet option, optgroup {
+.character option, optgroup {
     font-family: inherit;
     background: #c9c7b8;
     color: red;
@@ -283,3 +283,4 @@
 	background-repeat: no-repeat;
     background-size: contain;
 }
+
