@@ -1,3 +1,8 @@
 2024/11/14-10:05:35.115 34a0 Recovering log #791
 2024/11/14-10:05:35.185 34a0 Delete type=0 #791
 2024/11/14-10:05:35.185 34a0 Delete type=3 #790
+2024/11/14-15:02:33.810 31bc Level-0 table #795: started
+2024/11/14-15:02:33.810 31bc Level-0 table #795: 0 bytes OK
+2024/11/14-15:02:33.869 31bc Delete type=0 #793
+2024/11/14-15:02:33.963 31bc Manual compaction at level-0 from '!actors!EtrPOkE4NdQuDujG' @ 72057594037927935 : 1 .. '!actors!eT3UpBmJBKmwCWyO' @ 0 : 0; will stop at (end)
+2024/11/14-15:02:34.120 31bc Manual compaction at level-1 from '!actors!EtrPOkE4NdQuDujG' @ 72057594037927935 : 1 .. '!actors!eT3UpBmJBKmwCWyO' @ 0 : 0; will stop at (end)
