@@ -25,11 +25,27 @@ CSS: modules/feiticeiros-e-maldicoes/style/F&M.css
 Salve e atualize a página pra deixar tudo pronto.
 
 Para conseguir usar as fichas, va até **Compendium**, clique com o botão direito em **Personagens** e **Bases para Itens** e selecione **Import All Content**, marcando a opção de manter todos os Ids. Isso irá encher seu jogo com tudo o que você precisa para jogar.*
-Importante: As fichas importadas são apenas a base do sistema, não sendo possível realizar rolagens com elas. Crie fichas novas e utilize elas para preencher com as bases importadas.
 
 ![image](https://github.com/user-attachments/assets/3fd9e251-35f2-42b3-b8a3-3f86473340c5)
 ![image](https://github.com/user-attachments/assets/78da2e65-94c4-4623-af72-2c5d5a617775)
 ![image](https://github.com/user-attachments/assets/3c2b5f33-986b-4adc-83ad-e01380ccfdc0)
+
+
+Importante: As fichas importadas são apenas a base do sistema, não sendo possível realizar rolagens com elas. Para criar fichas editáveis para jogadores e criaturas siga os seguintes passos:
+
+1. Crie fichas novas em "Create Actor" e escolha a opção "Character"
+
+![image](https://github.com/user-attachments/assets/a4a59e77-eae8-4fc4-afc4-56aa39095c2e)
+
+![image](https://github.com/user-attachments/assets/9010f2a2-ceba-429c-a7b8-5415144143ea)
+
+2. Escolha a base de ficha que pretende usar entre as opções e clique no botão ao lado para atualizar.
+
+![image](https://github.com/user-attachments/assets/91a1a1fb-983f-4d7f-8525-b626a068fad0)
+
+Pronto, a ficha já esta pronta pra ser usada.
+
+![image](https://github.com/user-attachments/assets/acedd2c2-3f3f-4095-a986-d93e05cb71e4)
 
 
 *¹: Sempre que houver uma atualização, repita esses passos para as fichas mencionadas nas notas de atualização. 
