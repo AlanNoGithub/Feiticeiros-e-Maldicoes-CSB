@@ -1,3 +1,8 @@
-2024/11/14-21:44:06.043 4094 Recovering log #805
-2024/11/14-21:44:06.127 4094 Delete type=0 #805
-2024/11/14-21:44:06.127 4094 Delete type=3 #804
+2025/05/15-20:42:01.014 54cc Recovering log #1242
+2025/05/15-20:42:01.081 54cc Delete type=0 #1242
+2025/05/15-20:42:01.081 54cc Delete type=3 #1240
+2025/05/15-20:46:13.584 5b80 Level-0 table #1247: started
+2025/05/15-20:46:13.585 5b80 Level-0 table #1247: 0 bytes OK
+2025/05/15-20:46:13.626 5b80 Delete type=0 #1245
+2025/05/15-20:46:13.627 5b80 Manual compaction at level-0 from '!actors!BLmcTneIT9HSIGip' @ 72057594037927935 : 1 .. '!actors!icv2RmHfZMi93k3L' @ 0 : 0; will stop at (end)
+2025/05/15-20:46:13.627 5b80 Manual compaction at level-1 from '!actors!BLmcTneIT9HSIGip' @ 72057594037927935 : 1 .. '!actors!icv2RmHfZMi93k3L' @ 0 : 0; will stop at (end)
