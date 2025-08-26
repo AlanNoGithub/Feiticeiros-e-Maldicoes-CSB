@@ -1,15 +1,15 @@
 /* Fontes */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 /* Fundo */
 .sheet .custom-system-actor-content {
     background: url("...");
-    background-color: #0B0539;
+    background-color: #000000;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: screen;
 	color: white;
-	font-family: Roboto Slab;
+	font-family: Lexend;
     font-size:14px;
 }
 .sheet .header-fields {
@@ -17,7 +17,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-left:10px;
-	background: #090430;
+	background: #000000;
 }
 .sheet .custom-system-actor header.sheet-header .profile-img-container img {
     border: solid 1px white;
@@ -33,7 +33,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-left:10px;
-	background: #090430;
+	background: #000000;
 }
 /* Itens */
 .equip-icn table { background: none; border: none; }
@@ -89,11 +89,11 @@
 	padding-left: 4px;
 	white-space: pre-wrap;
 	display: flex;
-	font-family: Roboto Slab;
+	font-family: Lexend;
 }
 .subtitle {
-	font-family: Roboto;
-	font-size: 10px;
+	font-family: Lexend;
+	font-size: 9.5px;
 	white-space: pre-wrap;
 	padding-left: 4px
 	
@@ -184,8 +184,8 @@
 }
 .sheet option, optgroup {
     font-family: inherit;
-    background: #c9c7b8;
-    color: black;
+    background: #202020;
+    color: white;
 }
 .sheet .choice select {
     height: calc(var(--form-field-height) + 1px);
@@ -223,7 +223,7 @@
 .sheet .character table {
     width: 100%;
     border-collapse: collapse;
-    background: #000048;
+    background: #303030;
     border-top: 0px transparent var(--color-border-light-tertiary);
     border-bottom: 0px transparent var(--color-border-light-tertiary);
     margin: 0.01em 0;
@@ -268,4 +268,3 @@
 	background-repeat: no-repeat;
     background-size: contain;
 }
-
