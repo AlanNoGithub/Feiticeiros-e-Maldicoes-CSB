@@ -1,24 +1,27 @@
 /* Fontes */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
-/* Fundo */
-.sheet .custom-system-actor-content {
+
+/* Fundo e Estilos Gerais da Ficha */
+.F_E_M .custom-system-actor-content {
     background: url("");
     background-color: #11001f;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: screen;
 	color: white;
-	font-family: Lexend;
-    font-size:14px;
+	font-family: 'Lexend', sans-serif;
+    font-size: 14px;
 }
-.sheet .header-fields {
+
+.F_E_M .header-fields {
     background: url("...");
     background-size: cover;
     background-repeat: no-repeat;
     margin-left:10px;
 }
-.sheet .custom-system-actor header.sheet-header .profile-img-container img {
+
+.F_E_M .custom-system-actor header.sheet-header .profile-img-container img {
     border: solid 1px white;
     margin: auto;
     width: 100%;
@@ -27,11 +30,12 @@
     overflow: hidden;
     flex: none;
 }
+
 /* Itens */
-.equip-icn table { background: none; border: none; }
-.equip-icn table tbody tr { background: none; }
-.equip-icn a.content-link { background: none; border: none; font-size: 0; }
-.equip-icn .custom-system-item-container-image {
+.F_E_M .equip-icn table { background: none; border: none; }
+.F_E_M .equip-icn table tbody tr { background: none; }
+.F_E_M .equip-icn a.content-link { background: none; border: none; font-size: 0; }
+.F_E_M .equip-icn .custom-system-item-container-image {
   object-fit: contain;
   max-width: 32px;
   max-height: 32px;
@@ -43,95 +47,74 @@
   transition: all .3s ease-in-out;
 }
 
-/* Rolagens */
+/* --- Estilos para Mensagens de Rolagem no Chat --- */
+.critico { color: #0c6400; }
+.falha { color: #640000; }
 
-.critico{ 
-	color: #0c6400; 
-}
-.falha{ 
-	color: #640000; 
-}
-.chat-roll {
+/* Adiciona a classe do template ao seletor para especificidade */
+.chat-message .F_E_M-roll .chat-roll {
 	border: 2px solid #9f9275;
 	border-radius: 5px; 
 	background: #f8f4f1;
 	padding-left: 4px; 
 	padding-right: 2px;
 }
-.chat-roll img {
+.chat-message .F_E_M-roll .chat-roll img {
 	float: left;
 	border: 3px groove #9f9275;
 }
-.text-form {
+.chat-message .F_E_M-roll .text-form {
 	font-size: 12px;
 	font-family: inherit;
 }
-.text-icn {
+.chat-message .F_E_M-roll .text-icn {
 	padding-left: 0px; 
 	padding-top: 4px;
 	white-space: wrap;
 }
-.chat-roll .text-icn .img {
+.chat-message .F_E_M-roll .text-icn .img {
 	vertical-align: top;
 	width: 35px;
 	height: 35px;
 	border: 3px groove #9f9275;
 }
-.title {
+.chat-message .F_E_M-roll .title {
 	padding-left: 4px;
 	white-space: pre-wrap;
 	display: flex;
-	font-family: Lexend;
+	font-family: 'Lexend', sans-serif;
 }
-.subtitle {
-	font-family: Lexend;
+.chat-message .F_E_M-roll .subtitle {
+	font-family: 'Lexend', sans-serif;
 	font-size: 9.5px;
 	white-space: pre-wrap;
-	padding-left: 4px
-	
+	padding-left: 4px;
 }
-.subtitle2 {
-	font-family: Roboto;
+.chat-message .F_E_M-roll .subtitle2 {
+	font-family: 'Roboto', sans-serif;
 	font-size: 10px;
 	white-space: pre;
 	padding-left: 4px;
-
 }
-.grid-container {
+.chat-message .F_E_M-roll .grid-container {
 	display: grid;
 	width: 100%;
 	align-content: center;
 	grid-column: 1 / span 3;
 }
-.message-header .message-sender{
-	font-family: Roboto Slab;
-	font-weight: bold;
-}
-.dice-roll .dice-total {
-    flex: 0;
-    font-size: 20px;
-    font-weight: bold;
-}
-.dice-roll .dice-total.critical {
-    flex: 0;
-    font-size: 20px;
-    font-weight: bold;
-	color: green;
-}
-.roll-text {
-	font-family: Roboto;
+.chat-message .F_E_M-roll .roll-text {
+	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
 }
-/* Botões */
-.character option, optgroup {
-    font-family: inherit;
-    background: #c9c7b8;
-    color: red;
-}
-/* Textos, Estatisticas, Dropdowns e Checkboxes */
-.sheet header.sheet-header h1 input {
+.message-header .message-sender { font-family: 'Roboto Slab', serif; font-weight: bold; }
+.dice-roll .dice-total { flex: 0; font-size: 20px; font-weight: bold; }
+.dice-roll .dice-total.critical { color: green; }
+/* --- Fim dos Estilos de Chat --- */
+
+
+/* Botões, Textos, Estatisticas, Dropdowns e Checkboxes */
+.F_E_M header.sheet-header h1 input {
     width: calc(80% - 2px);
-    min-width: 10px;
     background: rgba(0, 0, 0, 0.0);
     font-family: inherit;
     font-size: inherit;
@@ -140,9 +123,9 @@
     border: 1px solid white;
     border-radius: 55px;
 }
-.sheet .statistic input[type="text"]{
-    width: calc(100% - 2px);
-    min-width: 20px;
+.F_E_M .statistic input[type="text"],
+.F_E_M .naming input[type="text"] {
+    width: 100%;
     height: var(--form-field-height);
     background: rgba(0, 0, 0, 0.0);
     padding: 1px 3px;
@@ -154,80 +137,36 @@
     border: 1px solid white;
     border-radius: 55px;
 }
-.sheet .naming input[type="text"]{
-    width: calc(100% - 2px);
-    min-width: 20px;
-    height: var(--form-field-height);
-    background: rgba(0, 0, 0, 0.0);
-    padding: 1px 3px;
-    margin: 0px;
-    font-family: inherit;
-    font-size: inherit;
-    text-align: center;
-	color: white;
-    border: 1px solid white;
-    border-radius: 55px;
-	width: 100%;
-	
-}
-.custom-system-user-input-button {
+.F_E_M .custom-system-user-input-button {
     background: rgba(0, 0, 0, 0.05);
     border: 1px solid black;
     border-radius: 5px;
     color: black;
 }
-.sheet option, optgroup {
-    font-family: inherit;
+.F_E_M option, .F_E_M optgroup {
     background: #202020;
     color: white;
 }
-.sheet .choice select {
+.F_E_M .choice select,
+.F_E_M .custom-system-template-select > select {
     height: calc(var(--form-field-height) + 1px);
     background: rgba(0, 0, 0, 0.05);
     border: 1px solid white;
     border-radius: 50px;
     padding: 0 3px;
-    text-overflow: ellipsis;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
 	text-align: center;
 	color: white;
 	width: 100% !important;
 }
-.custom-system-template-select > select {
-    height: calc(var(--form-field-height) + 1px);
-    background: rgba(0, 0, 0, 0.05);
-    border: 1px solid white;
-    border-radius: 50px;
-    padding: 0 3px;
-    text-overflow: ellipsis;
-    font-family: inherit;
-    font-size: inherit;
-	text-align: center;
-	color: white;
-	
-}
-.sheet select:focus {
-    box-shadow: 0 0 5px red;
-    outline: none;
-}
-.sheet select:hover {
-	box-shadow: 0 0 5px blue;
-	outline: none;
-}
-.custom-system-rollable {
-    color: white;
-}
-.character .tabs .item.active {
-    text-shadow: 0 0 10px #00daff;
-}
-.Roll_Mod { color: white; }
-}
-.character .training input[type="checkbox"] {
-	display: inherit;
-}
-.character .training input[type="checkbox"] {
-   -webkit-appearance: initial;
+.F_E_M select:focus { box-shadow: 0 0 5px red; }
+.F_E_M select:hover { box-shadow: 0 0 5px blue; }
+.F_E_M .custom-system-rollable { color: white; }
+.F_E_M .tabs .item.active { text-shadow: 0 0 10px #00daff; }
+.F_E_M .Roll_Mod { color: white; }
+.F_E_M .training input[type="checkbox"] {
+    -webkit-appearance: initial;
     appearance: initial;
     background: url(/modules/feiticeiros-e-maldicoes/img/fire-unchecked.png);
     background-repeat: no-repeat;
@@ -238,102 +177,60 @@
 	cursor: pointer;
     transform: scale(1.4);
 }
-.character .training input[type="checkbox"]:checked {
+.F_E_M .training input[type="checkbox"]:checked {
     background: url(/modules/feiticeiros-e-maldicoes/img/fire-checked.png);
-    -webkit-filter: none !important;
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: contain;
 }
-.character .training-complete input[type="checkbox"]:checked {
+.F_E_M .training-complete input[type="checkbox"]:checked {
     background: url(/modules/feiticeiros-e-maldicoes/img/fire-burning.png);
-    -webkit-filter: none !important;
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: contain;
 }
-.charname input{
-	width: 50%;
-	margin-left: 20px;
-
-}
-.custom-system-label {
-    flex-direction: column;
-    flex-grow: 0;
-    flex-shrink: 1;
-	color: white;
-}
-.custom-system-roll-icon {
-	color: white;
-}
-.bignumber { margin-right: 0px; }
-.bignumber input:focus { box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); }
-.bignumber input {
+.F_E_M .custom-system-label { color: white; }
+.F_E_M .custom-system-roll-icon { color: white; }
+.F_E_M .bignumber input {
 	color: #FFFFFF;
 	background: none;
-	border: white;
+	border: none;
 	text-align: center;
 	font-weight: bold;
 	scale: 1.5;
-	box-shadow: #FFFFFF;
+	box-shadow: none;
 }
-/* Barras */
 
-.hpbar .custom-system-meter-fill {
-   background-color: #ff0000 !important;
-}
-.pebar .custom-system-meter-fill {
-   background-color: #0096ff !important;
-}
-.intbar .custom-system-meter-fill {
-   background-color: #8504c7 !important;
-}
-.custom-system-meter-content {
+/* Barras */
+.F_E_M .hpbar .custom-system-meter-fill { background-color: #ff0000 !important; }
+.F_E_M .pebar .custom-system-meter-fill { background-color: #0096ff !important; }
+.F_E_M .intbar .custom-system-meter-fill { background-color: #8504c7 !important; }
+.F_E_M .custom-system-meter-content {
 	color: #000000;
 	text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #fff;
 }
-/* Tabelas */
 
-.character table {
+/* Tabelas e Painéis de Layout */
+.F_E_M table {
     width: 100%;
     border-collapse: collapse;
     background: #230243;
-    border-top: 0px transparent var(--color-border-light-tertiary);
-    border-bottom: 0px transparent var(--color-border-light-tertiary);
-    margin: 0.01em 0;
+    border: none;
 	border-radius: 10px;
+    margin: 0.01em 0;
 }
-.sheet .character table td:first-child {
+.F_E_M td:first-child {
     padding-left: 2px;
 	color: white;
 }
-.atritable {
-	width:100%;
-	border-radius: 10px;
-	margin-left: 40px;
-	grid-column: 20px;
-	background-color: #33184c;
+.F_E_M .atritable,
+.F_E_M .resbar,
+.F_E_M .charinfo,
+.F_E_M .cacd,
+.F_E_M .colorpanel {
+    border-radius: 15px;
+    background-color: #33184c;
 }
-.resbar {
-	width: 100%;
-	height: 100%;
-	border-radius: 15px;
-	background-color: #33184c;
-}
-.charinfo {
-	width: 95%;
-	height: 95%;
-	border-radius: 15px;
-	margin-left: 20px;
-	grid-column: 10px;
-	background-color: #33184c;
-}
-.cacd {
-	width: 100%;
-	height: 100%;
-	border-radius: 15px;
-	grid-column: 60px;
-	background-color: #33184c;
-}
-.colorpanel {
-	border-radius: 15px;
-	background-color: #33184c;
-}
+
+.F_E_M .atritable { width:100%; margin-left: 40px; grid-column: 20px; }
+.F_E_M .resbar { width: 100%; height: 100%; }
+.F_E_M .charinfo { width: 95%; height: 95%; margin-left: 20px; grid-column: 10px; }
+.F_E_M .cacd { width: 100%; height: 100%; grid-column: 60px; }

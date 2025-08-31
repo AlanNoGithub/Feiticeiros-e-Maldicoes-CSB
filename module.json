@@ -1,45 +1,44 @@
 {
   "id": "feiticeiros-e-maldicoes",
   "title": "Feiticeiros e Maldições",
-  "version": "1.4",
+  "version": "3.0.0",
   "compatibility": {
-    "minimum": "11",
-    "verified": "12",
-    "maximum": "13"
+    "minimum": "13",
+    "verified": "13"
   },
   "relationships": {
     "systems": [
       {
         "id": "custom-system-builder",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "5.0.0"
+        }
       }
     ],
     "recommends": [
       {
         "id": "dice-so-nice",
-        "type": "module",
-        "compatibility": {}
+        "type": "module"
       },
       {
         "id": "chat-portrait",
-        "type": "module",
-        "compatibility": {}
+        "type": "module"
       },
       {
         "id": "barbrawl",
-        "type": "module",
-        "compatibility": {}
+        "type": "module"
       }
     ]
   },
   "authors": [
     {
-      "name": "Kyodan",
-      "email": "santossilva.f@gmail.com",
-      "discord": "kyodansfx",
-      "url": "https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB",
-      "flags": {}
+      "name": "Kyodan (Original Author)",
+      "url": "https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB"
+    },
+    {
+      "name": "AlanNoGithub (Maintainer)",
+      "url": "https://github.com/AlanNoGithub/Feiticeiros-e-Maldicoes-CSB"
     }
   ],
   "packs": [
@@ -49,10 +48,7 @@
       "path": "packs/personagens",
       "type": "Actor",
       "system": "custom-system-builder",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" }
     },
     {
       "name": "aptidoes-amaldicoadas",
@@ -60,10 +56,7 @@
       "path": "packs/aptidoes-amaldicoadas",
       "type": "Item",
       "system": "custom-system-builder",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
       "name": "habilidades-de-especializacao",
@@ -71,10 +64,7 @@
       "path": "packs/habilidades-de-especializacao",
       "type": "Item",
       "system": "custom-system-builder",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
       "name": "talentos",
@@ -82,10 +72,7 @@
       "path": "packs/talentos",
       "type": "Item",
       "system": "custom-system-builder",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
       "name": "equipamentos",
@@ -93,10 +80,7 @@
       "path": "packs/equipamentos",
       "type": "Item",
       "system": "custom-system-builder",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
       "name": "tecnicas",
@@ -104,10 +88,7 @@
       "path": "packs/tecnicas",
       "type": "Item",
       "system": "custom-system-builder",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
       "name": "templates-para-itens",
@@ -115,10 +96,7 @@
       "path": "packs/templates-para-itens",
       "type": "Item",
       "system": "custom-system-builder",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" }
     },
     {
       "name": "enciclopedia-amaldicoada",
@@ -126,10 +104,7 @@
       "path": "packs/enciclopedia-amaldicoada",
       "type": "Item",
       "system": "custom-system-builder",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
       "name": "grimorio-das-maldicoes",
@@ -137,10 +112,7 @@
       "path": "packs/grimorio-das-maldicoes",
       "type": "Actor",
       "system": "custom-system-builder",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" }
     },
     {
       "name": "acoes-de-criaturas",
@@ -148,10 +120,7 @@
       "path": "packs/acoes-de-criaturas",
       "type": "Item",
       "system": "custom-system-builder",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
       "name": "manual-jujutsu",
@@ -159,10 +128,7 @@
       "path": "packs/manual-jujutsu",
       "type": "Item",
       "system": "custom-system-builder",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
       "name": "maldicoes-libertas",
@@ -170,10 +136,7 @@
       "path": "packs/maldicoes-libertas",
       "type": "Actor",
       "system": "custom-system-builder",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" }
     },
     {
       "name": "arquivos-de-grau-especial",
@@ -181,10 +144,7 @@
       "path": "packs/arquivos-de-grau-especial",
       "type": "JournalEntry",
       "system": "custom-system-builder",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" }
     },
     {
       "name": "invocacoes-de-tecnica",
@@ -192,10 +152,7 @@
       "path": "packs/invocacoes-de-tecnica",
       "type": "Actor",
       "system": "custom-system-builder",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
       "name": "habilidades-lendarias",
@@ -203,10 +160,7 @@
       "path": "packs/habilidades-lendarias",
       "type": "Item",
       "system": "custom-system-builder",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
       "name": "melhorias-superiores",
@@ -214,24 +168,18 @@
       "path": "packs/melhorias-superiores",
       "type": "Item",
       "system": "custom-system-builder",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
       "name": "personalizados",
       "label": "Personalizados",
       "path": "packs/personalizados",
       "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
       "system": "custom-system-builder"
     }
   ],
-  "url": "https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB",
-  "manifest": "https://raw.githubusercontent.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB/main/module.json",
-  "download": "https://github.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB/releases/download/2.0/feiticeiros-e-maldicoes.zip"
+  "url": "https://github.com/AlanNoGithub/Feiticeiros-e-Maldicoes-CSB",
+  "manifest": "https://raw.githubusercontent.com/AlanNoGithub/Feiticeiros-e-Maldicoes-CSB/main/module.json",
+  "download": "https://github.com/AlanNoGithub/Feiticeiros-e-Maldicoes-CSB/releases/download/3.0.0/feiticeiros-e-maldicoes.zip"
 }
