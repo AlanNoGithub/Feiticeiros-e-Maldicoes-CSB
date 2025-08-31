@@ -1,9 +1,9 @@
 {
   "id": "feiticeiros-e-maldicoes",
   "title": "Feiticeiros e Maldições",
-  "version": "1.4",
+  "version": "2.0",
   "compatibility": {
-    "minimum": "11",
+    "minimum": "12",
     "verified": "12",
     "maximum": "13"
   },
