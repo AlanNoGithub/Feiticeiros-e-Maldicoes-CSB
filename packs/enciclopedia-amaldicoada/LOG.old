@@ -1,7 +1,3 @@
-2025/08/25-13:01:38.416 5ea0 Recovering log #1171
-2025/08/25-13:01:38.470 5ea0 Delete type=0 #1171
-2025/08/25-13:01:38.472 5ea0 Delete type=3 #1170
-2025/08/25-13:34:58.773 6268 Level-0 table #1175: started
-2025/08/25-13:34:58.773 6268 Level-0 table #1175: 0 bytes OK
-2025/08/25-13:34:58.862 6268 Delete type=0 #1173
-2025/08/25-13:34:59.149 6268 Manual compaction at level-0 from '!folders!0IOAzM8KburK7VqM' @ 72057594037927935 : 1 .. '!items!zbvKm7Itp4RNtROM' @ 0 : 0; will stop at (end)
+2025/08/31-10:15:21.600 5cb0 Recovering log #1181
+2025/08/31-10:15:21.646 5cb0 Delete type=0 #1181
+2025/08/31-10:15:21.646 5cb0 Delete type=3 #1180

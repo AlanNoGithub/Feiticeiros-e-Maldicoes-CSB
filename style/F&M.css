@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 /* Fundo */
 .sheet .custom-system-actor-content {
-    background: url("...");
-    background-color: #000000;
+    background: url("");
+    background-color: #11001f;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: screen;
@@ -17,7 +17,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-left:10px;
-	background: #000000;
 }
 .sheet .custom-system-actor header.sheet-header .profile-img-container img {
     border: solid 1px white;
@@ -27,13 +26,6 @@
     object-fit: cover;
     overflow: hidden;
     flex: none;
-}
-.custom-system-customBody {
-    background: url("...");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-left:10px;
-	background: #000000;
 }
 /* Itens */
 .equip-icn table { background: none; border: none; }
@@ -175,6 +167,8 @@
 	color: white;
     border: 1px solid white;
     border-radius: 55px;
+	width: 100%;
+	
 }
 .custom-system-user-input-button {
     background: rgba(0, 0, 0, 0.05);
@@ -198,6 +192,7 @@
     font-size: 12px;
 	text-align: center;
 	color: white;
+	width: 100% !important;
 }
 .custom-system-template-select > select {
     height: calc(var(--form-field-height) + 1px);
@@ -219,19 +214,6 @@
 .sheet select:hover {
 	box-shadow: 0 0 5px blue;
 	outline: none;
-}
-.sheet .character table {
-    width: 100%;
-    border-collapse: collapse;
-    background: #303030;
-    border-top: 0px transparent var(--color-border-light-tertiary);
-    border-bottom: 0px transparent var(--color-border-light-tertiary);
-    margin: 0.01em 0;
-	border-radius: 15px;
-}
-.sheet .character table td:first-child {
-    padding-left: 2px;
-	color: white;
 }
 .custom-system-rollable {
     color: white;
@@ -267,4 +249,91 @@
     -webkit-filter: none !important;
 	background-repeat: no-repeat;
     background-size: contain;
+}
+.charname input{
+	width: 50%;
+	margin-left: 20px;
+
+}
+.custom-system-label {
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1;
+	color: white;
+}
+.custom-system-roll-icon {
+	color: white;
+}
+.bignumber { margin-right: 0px; }
+.bignumber input:focus { box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); }
+.bignumber input {
+	color: #FFFFFF;
+	background: none;
+	border: white;
+	text-align: center;
+	font-weight: bold;
+	scale: 1.5;
+	box-shadow: #FFFFFF;
+}
+/* Barras */
+
+.hpbar .custom-system-meter-fill {
+   background-color: #ff0000 !important;
+}
+.pebar .custom-system-meter-fill {
+   background-color: #0096ff !important;
+}
+.intbar .custom-system-meter-fill {
+   background-color: #8504c7 !important;
+}
+.custom-system-meter-content {
+	color: #000000;
+	text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #fff;
+}
+/* Tabelas */
+
+.character table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #230243;
+    border-top: 0px transparent var(--color-border-light-tertiary);
+    border-bottom: 0px transparent var(--color-border-light-tertiary);
+    margin: 0.01em 0;
+	border-radius: 10px;
+}
+.sheet .character table td:first-child {
+    padding-left: 2px;
+	color: white;
+}
+.atritable {
+	width:100%;
+	border-radius: 10px;
+	margin-left: 40px;
+	grid-column: 20px;
+	background-color: #33184c;
+}
+.resbar {
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+	background-color: #33184c;
+}
+.charinfo {
+	width: 95%;
+	height: 95%;
+	border-radius: 15px;
+	margin-left: 20px;
+	grid-column: 10px;
+	background-color: #33184c;
+}
+.cacd {
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+	grid-column: 60px;
+	background-color: #33184c;
+}
+.colorpanel {
+	border-radius: 15px;
+	background-color: #33184c;
 }

@@ -1,7 +1,3 @@
-2025/08/25-13:01:39.009 2f2c Recovering log #847
-2025/08/25-13:01:39.097 2f2c Delete type=0 #847
-2025/08/25-13:01:39.097 2f2c Delete type=3 #846
-2025/08/25-13:34:58.073 6268 Level-0 table #851: started
-2025/08/25-13:34:58.074 6268 Level-0 table #851: 0 bytes OK
-2025/08/25-13:34:58.123 6268 Delete type=0 #849
-2025/08/25-13:34:58.207 6268 Manual compaction at level-0 from 'undefined' @ 72057594037927935 : 1 .. 'undefined' @ 0 : 0; will stop at (end)
+2025/08/31-10:15:22.016 5cac Recovering log #857
+2025/08/31-10:15:22.072 5cac Delete type=0 #857
+2025/08/31-10:15:22.072 5cac Delete type=3 #856
