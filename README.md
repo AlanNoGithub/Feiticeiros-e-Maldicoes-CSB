@@ -7,7 +7,7 @@ Módulo não-oficial para o sistema de Feiticeiros e Maldições feito por Setsu
 
 1. Instale o módulo usando o manifest link na sessão "install module" no FoundryVTT:
 
-https://raw.githubusercontent.com/Kyodan061/Feiticeiros-e-Maldicoes-CSB/main/module.json
+https://raw.githubusercontent.com/AlanNoGithub/Feiticeiros-e-Maldicoes-CSB/main/module.json
 ![image](https://github.com/user-attachments/assets/0bd53450-e1eb-456c-85a0-3991553fd9c0)
 
 2. Crie um mundo com o sistema [Custom system Builder](https://foundryvtt.com/packages/custom-system-builder)
